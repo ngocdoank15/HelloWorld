@@ -4,7 +4,9 @@ public class HelloWorldTest extends junit.framework.TestCase {
     }
     
     public void testWillAlwaysFail() {
-        fail("An error message");
+		HelloWorld h = new HelloWorld();
+		assertEquals(h.getMessage(),"Hello World");
+        //fail("An error message");
     }
     
 }
