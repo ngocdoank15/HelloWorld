@@ -5,7 +5,7 @@ public class HelloWorld {
         System.out.println("Hello World");
     }
 	
-	public void getMessage() {
+	public String getMessage() {
         return "Hello World";
     }
 }
