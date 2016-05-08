@@ -3,22 +3,14 @@ public class HelloWorldTest extends junit.framework.TestCase {
     public void testNothing() {
     }
     
-    public void testWillAlwaysFail() {
+    public void testWillAlwaysPass() {
 		oata.HelloWorld h = new oata.HelloWorld();
 		assertEquals(h.getMessage(),"Hello World");
         //fail("An error message");
     }
-    
-}
 
-public class CopyHelloWorldTest extends junit.framework.TestCase {
-
-    public void testNothing() {
-    }
-    
-    public void testWillAlwaysFail() {
-		//oata.HelloWorld h = new oata.HelloWorld();
-		//assertEquals(h.getMessage(),"Hello World");
+   public void testWillAlwaysFail() {
+		
         fail("An error message");
     }
     
