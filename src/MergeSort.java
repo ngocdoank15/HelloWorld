@@ -21,6 +21,19 @@ public class MergeSort {
 	 File f;
 	 BufferedWriter bw;
 
+	 public int[] toIntArr(String[] strArr) {
+		int len = strArr.length;
+		int[] intArr = new int[len];
+		for (int i = 0; i < len; i++) {
+			try {
+				intArr[i] = Integer.parseInt(strArr[i].trim());
+			} catch (Exception e) {
+				intArr[i] = 0;
+			}
+		}
+		return intArr;
+	}
+	
 	void print(int[] a) {
 		for (int s : a) {
 			System.out.print(s + " ");

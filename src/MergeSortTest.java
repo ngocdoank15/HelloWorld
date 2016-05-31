@@ -11,11 +11,11 @@ public class MergeSortTest extends junit.framework.TestCase {
 	//long staTime = System.nanoTime();
 	//JSONObject json = new JSONObject();
 	String[] inputArr = input.split(",");
-	int[] intArr = Common.toIntArr(inputArr);
+	MergeSort mms = new MergeSort();
+	int[] intArr = mms.toIntArr(inputArr);
 
 	// print(intArr);
 
-	MergeSort mms = new MergeSort();
 	mms.array = intArr;
 	mms.length = inputArr.length;
 	mms.tempMergArr = new int[mms.length];
