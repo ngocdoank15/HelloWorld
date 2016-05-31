@@ -1,4 +1,4 @@
-package sapxep;
+package oata;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,8 +9,6 @@ import java.util.Random;
 import javax.servlet.ServletContext;
 
 import org.json.simple.JSONObject;
-
-import utils.Common;
 
 public class MergeSort {
 	 int split = 1;
@@ -48,8 +46,6 @@ public class MergeSort {
 			e.printStackTrace();
 		}
 	}
-
-	public String run(String input, ServletContext ctx) {
 		long staTime = System.nanoTime();
 		JSONObject json = new JSONObject();
 		split = 1;
