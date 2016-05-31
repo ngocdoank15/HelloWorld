@@ -8,7 +8,7 @@ public class MergeSortTest extends junit.framework.TestCase {
        // fail("An error message");
     //}
 	    
-	  public void testWillAlwaysFail() {
+	  public void testWillAlwaysWithMergeParts() {
 	    	String input = "3,2,7,4,1,5,4,2,3";
 	    	//long staTime = System.nanoTime();
 	    	//JSONObject json = new JSONObject();
