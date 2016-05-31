@@ -19,7 +19,7 @@ public class MergeSortTest extends junit.framework.TestCase {
 	    	//long staTime = System.nanoTime();
 	    	//JSONObject json = new JSONObject();
 	    	String[] inputArr = input.split(",");
-	    	MergeSort mms = new MergeSort();
+	    	oata.MergeSort mms = new oata.MergeSort();
 	    	int[] intArr = mms.toIntArr(inputArr);
 
 	    	
