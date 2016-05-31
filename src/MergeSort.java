@@ -11,6 +11,11 @@ import javax.servlet.ServletContext;
 import org.json.simple.JSONObject;
 
 public class MergeSort {
+	
+	public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+	
 	 int split = 1;
 	 int merge = 1;
 
