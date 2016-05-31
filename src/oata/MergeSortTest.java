@@ -23,7 +23,10 @@ public class MergeSortTest extends junit.framework.TestCase {
 	    	//mms.doMergeSort(0, intArr.length-1);
 	    	mms.mergeParts(0, 4, 8);
 	    	// print(intArr);
-			assertEquals("OK","OK");
+			for (int i = 0; i < intArr.length; i++)
+				assertEquals(mms.array[i], intArr[i]);
+  
+			//assertEquals("OK","OK");
 	    	//assertTrue(Arrays.equals(intArr, mms.array ));
 	    	System.out.println("Xong");
 	    }
