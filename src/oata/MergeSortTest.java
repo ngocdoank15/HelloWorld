@@ -4,6 +4,14 @@ import java.util.Arrays;
 import oata.*;
 
 public class MergeSortTest extends junit.framework.TestCase {
+	
+	public void testNothing() {
+    }
+    
+	public void testFail() {
+		fail("An error message");
+    }
+    
 	 public void testWillAlwaysFail() {
 	    	String input = "3,2,7,4,1,5,4,2,3";
 	    	//long staTime = System.nanoTime();
