@@ -1,17 +1,15 @@
-package oata;
-
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import org.json.simple.JSONObject;
+//import org.json.simple.JSONObject;
 
 import oata.MergeSort;
 
 
 public class MergeSortTest extends junit.framework.TestCase {
 	String input = "3,2,7,4,1,5,4,2,3";
-	long staTime = System.nanoTime();
-	JSONObject json = new JSONObject();
+	//long staTime = System.nanoTime();
+	//JSONObject json = new JSONObject();
 	String[] inputArr = input.split(",");
 	int[] intArr = Common.toIntArr(inputArr);
 
