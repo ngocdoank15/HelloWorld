@@ -46,47 +46,6 @@ public class MergeSort {
 			e.printStackTrace();
 		}
 	}
-		long staTime = System.nanoTime();
-		JSONObject json = new JSONObject();
-		split = 1;
-		merge = 1;
-		f = null;
-		Random r = new Random();
-		String filename = "mergeLog.txt";
-
-		try {
-			// Tao file de ghi log
-//			f = new File(System.getProperty("catalina.base") + "/webapps/hongngoc3/WebContent/output/" + filename);
-			File f = new File(ctx.getRealPath("output/" + filename));
-			if (!f.exists()) {
-				f.createNewFile();
-			}
-			// ghi thong tin vao file
-			FileWriter fw = new FileWriter(f.getAbsoluteFile());
-			bw = new BufferedWriter(fw);
-			// bw.write("Mot vai thong tin gi do");
-
-			String[] inputArr = input.split(",");
-			int[] intArr = Common.toIntArr(inputArr);
-			MergeSort mms = new MergeSort();
-			mms.sort(intArr);
-
-			json.put("result", Common.printNumbers(intArr));
-			long endTime = System.nanoTime();
-			json.put("totalTime", (endTime - staTime) / 1000000);
-			json.put("countTotal", intArr.length);
-			json.put("min", intArr[0]);
-			json.put("max", intArr[intArr.length - 1]);
-			json.put("algothrim", "Merge Sort");
-			json.put("filename", filename);
-
-			bw.close();
-			f.listFiles();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return json.toJSONString();
-	}
 
 	public void sort(int inputArr[]) {
 		this.array = inputArr;
