@@ -17,6 +17,10 @@ public class MergeSort {
 
 	 File f;
 	 BufferedWriter bw;
+	 
+	 public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
 
 	 public int[] toIntArr(String[] strArr) {
 		int len = strArr.length;
