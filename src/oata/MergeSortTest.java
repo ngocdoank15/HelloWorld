@@ -1,7 +1,6 @@
-package oata;
 import java.util.Arrays;
 
-import oata.*;
+//import oata.*;
 
 public class MergeSortTest extends junit.framework.TestCase {
 
