@@ -3,16 +3,32 @@ import java.util.Arrays;
 
 import oata.*;
 
-public class MergeSortTest extends junit.framework.TestCase {
-	
-	public void testNothing() {
+public class HelloWorldTest extends junit.framework.TestCase {
+
+    public void testNothing() {
     }
     
-	public void testWillAlwaysFail() {
+    public void testWillAlwaysFail() {
 		//oata.HelloWorld h = new oata.HelloWorld();
 		//assertEquals(h.getMessage(),"Hello World");
         fail("An error message");
     }
+
+  
+    
+}
+
+
+//public class MergeSortTest extends junit.framework.TestCase {
+	
+//	public void testNothing() {
+//    }
+    
+//	public void testWillAlwaysFail() {
+		//oata.HelloWorld h = new oata.HelloWorld();
+		//assertEquals(h.getMessage(),"Hello World");
+ //       fail("An error message");
+ //   }
 	// public void testFail() {
 		// fail("An error message");
     // }
@@ -36,4 +52,4 @@ public class MergeSortTest extends junit.framework.TestCase {
 	    	// System.out.println("Xong");
 	    // }
 
-}
+//}
