@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 import oata.*;
 
-public class HelloWorldTest extends junit.framework.TestCase {
+public class MergeSortTest extends junit.framework.TestCase {
 
     public void testNothing() {
     }
